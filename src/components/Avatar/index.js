@@ -1,8 +1,8 @@
 import './styles.css'
 
-const Avatar = ({ url }) => {
+const Avatar = ({ url, size = 'normal' }) => {
   return (
-    <div className="avatar">
+    <div className={`avatar ${size}`}>
       <img src={url} alt="" className="img" />
     </div>
   )

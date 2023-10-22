@@ -1,0 +1,57 @@
+.post {
+  border-radius: 30px;
+  background-color: #1e1e1e;
+  padding: 15px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.author > .info {
+  margin-left: 15px;
+}
+
+.author > .info > .name {
+  color: #a7a7a7;
+  font-size: 14px;
+  margin-bottom: -4px;
+}
+
+.author > .info > .time {
+  font-size: 10px;
+}
+
+.post > .background {
+  border-radius: 30px;
+  margin-top: 20px;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.action {
+  display: flex;
+}
+
+.action .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  background-color: #121212;
+  border-radius: 50%;
+  margin: 20px 10px 10px 0;
+  cursor: pointer;
+  color: #a7a7a7;
+  transition: color 0.3s;
+}
+
+.action .icon:hover {
+  color: #fff;
+}
+
+.action .bookmark {
+  margin-left: auto;
+}
