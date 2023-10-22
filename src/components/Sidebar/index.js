@@ -1,4 +1,5 @@
 import { Logo } from '../Logo'
+import { Avatar } from '../Avatar'
 
 import './styles.css'
 
@@ -8,6 +9,7 @@ const Sidebar = () => {
       <div class="logo">
         <Logo />
       </div>
+      <Avatar url="https://source.unsplash.com/random" />
     </aside>
   )
 }
