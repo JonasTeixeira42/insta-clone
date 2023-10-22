@@ -1,4 +1,5 @@
 import { Logo } from '../Logo'
+import { Menu } from '../Menu'
 import { Profile } from '../Profile'
 
 import './styles.css'
@@ -14,6 +15,7 @@ const Sidebar = () => {
         name="Kate Diaz"
         link="kate42"
       />
+      <Menu />
     </aside>
   )
 }

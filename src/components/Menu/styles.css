@@ -1,0 +1,30 @@
+.menu {
+  flex: 1;
+  width: 100%;
+  padding: 0 20px;
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.option-wrapper {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  color: #a7a7a7;
+  border-right: 5px solid #1e1e1e;
+  transition: all 0.3s;
+}
+
+.option-wrapper:hover {
+  color: #ea4c89;
+  border-color: #ea4c89;
+}
+
+.option-wrapper > svg {
+  margin-right: 25px;
+}
