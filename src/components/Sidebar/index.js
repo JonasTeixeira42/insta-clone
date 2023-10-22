@@ -1,5 +1,5 @@
 import { Logo } from '../Logo'
-import { Avatar } from '../Avatar'
+import { Profile } from '../Profile'
 
 import './styles.css'
 
@@ -9,7 +9,11 @@ const Sidebar = () => {
       <div class="logo">
         <Logo />
       </div>
-      <Avatar url="https://source.unsplash.com/random" />
+      <Profile
+        url="https://source.unsplash.com/random"
+        name="Kate Diaz"
+        link="kate42"
+      />
     </aside>
   )
 }

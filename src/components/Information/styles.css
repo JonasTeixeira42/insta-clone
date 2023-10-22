@@ -1,0 +1,48 @@
+.information {
+  width: 100%;
+}
+
+.information > .name {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 12px;
+}
+
+.information > .link {
+  font-size: 14px;
+  cursor: pointer;
+  color: #a7a7a7;
+  letter-spacing: 1px;
+}
+
+.information > .link:hover {
+  text-decoration: underline;
+}
+
+.numbers {
+  list-style: none;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbers > .item {
+  flex: 1;
+  font-size: 14px;
+  text-align: center;
+  border-right: 1px solid #a7a7a7;
+}
+
+.numbers > .item:last-child {
+  border: 0;
+}
+
+.numbers > .item > .subtitle {
+  display: block;
+  color: #a7a7a7;
+}
+
+.numbers > .item:last-child {
+  border: 0;
+}
