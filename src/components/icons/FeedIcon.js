@@ -1,4 +1,4 @@
-const Feed = () => {
+const FeedIcon = () => {
   return (
     <svg
       width="24"
@@ -22,4 +22,4 @@ const Feed = () => {
   )
 }
 
-export { Feed }
+export { FeedIcon }

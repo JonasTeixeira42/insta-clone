@@ -1,11 +1,12 @@
 .home {
   display: flex;
+  padding-left: 320px;
 }
 
 .main {
   width: 100%;
   min-height: 100vh;
-  margin-left: 320px;
+  padding: 30px 60px 0;
   background-color: #121212;
   border-top-left-radius: 70px;
   border-bottom-left-radius: 70px;

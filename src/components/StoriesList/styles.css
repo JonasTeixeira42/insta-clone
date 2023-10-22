@@ -1,0 +1,12 @@
+.stories-wrapper > .title {
+  font-size: 32px;
+}
+
+.stories-list {
+  display: flex;
+  margin-top: 15px;
+  gap: 25px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 20px;
+}

@@ -1,7 +1,7 @@
-import { Feed } from '../icons/Feed'
 import { Reels } from '../icons/Reels'
 import { Logout } from '../icons/Logout'
 import { Explore } from '../icons/Explore'
+import { FeedIcon } from '../icons/FeedIcon'
 import { Settings } from '../icons/Settings'
 
 import './styles.css'
@@ -11,7 +11,7 @@ const Menu = () => {
     <nav className="menu">
       <ul className="menu-list">
         <li className="option-wrapper">
-          <Feed /> Feed
+          <FeedIcon /> Feed
         </li>
         <li className="option-wrapper">
           <Explore /> Explore

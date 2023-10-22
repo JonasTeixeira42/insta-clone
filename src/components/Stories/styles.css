@@ -1,0 +1,11 @@
+.stories {
+  text-align: center;
+  cursor: pointer;
+}
+
+.stories > .name {
+  font-size: 14px;
+  font-weight: 400;
+  color: #a7a7a7;
+  margin-top: 10px;
+}
