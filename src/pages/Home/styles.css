@@ -1,0 +1,12 @@
+.home {
+  display: flex;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  margin-left: 320px;
+  background-color: #121212;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+}

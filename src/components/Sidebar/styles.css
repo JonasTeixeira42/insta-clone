@@ -1,0 +1,13 @@
+.sidebar {
+  width: 320px;
+  height: 100vh;
+  position: fixed;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar > .logo {
+  width: 130px;
+  height: 130px;
+}
