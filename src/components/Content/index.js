@@ -1,16 +1,14 @@
-import { Feed } from '../Feed'
-import { Header } from '../Header'
-import { StoriesList } from '../StoriesList'
-import './styles.css'
+import { Feed } from "../Feed";
+import { StoriesList } from "../StoriesList";
+import "./styles.css";
 
 const Content = () => {
   return (
     <>
-      <Header />
       <StoriesList />
       <Feed />
     </>
-  )
-}
+  );
+};
 
-export { Content }
+export { Content };

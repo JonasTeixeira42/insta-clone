@@ -1,9 +1,17 @@
-import { Home } from './pages/Home'
+import { Content } from "./components/Content";
+import { Sidebar } from "./components/Sidebar";
 
-import './App.css'
+import "./App.css";
 
 function App() {
-  return <Home />
+  return (
+    <section class="home">
+      <Sidebar />
+      <main class="main">
+        <Content />
+      </main>
+    </section>
+  );
 }
 
-export default App
+export default App;

@@ -1,8 +1,8 @@
-import { Logo } from '../Logo'
-import { Menu } from '../Menu'
-import { Profile } from '../Profile'
+import { Logo } from "../Logo";
+import { Menu } from "../Menu";
+import { Profile } from "../Profile";
 
-import './styles.css'
+import "./styles.css";
 
 const Sidebar = () => {
   return (
@@ -11,13 +11,13 @@ const Sidebar = () => {
         <Logo />
       </div>
       <Profile
-        url="https://source.unsplash.com/random"
+        url="https://source.unsplash.com/random/?face"
         name="Kate Diaz"
         link="kate42"
       />
       <Menu />
     </aside>
-  )
-}
+  );
+};
 
-export { Sidebar }
+export { Sidebar };

@@ -16,7 +16,7 @@
 }
 
 .avatar:hover {
-  background-position: right center;
+  background-position: right;
 }
 
 .avatar > .img {
