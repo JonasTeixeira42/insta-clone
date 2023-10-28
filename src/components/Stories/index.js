@@ -2,11 +2,11 @@ import { Avatar } from '../Avatar'
 
 import './styles.css'
 
-const Stories = ({ url }) => {
+const Stories = ({ url, name }) => {
   return (
     <div className="stories">
       <Avatar url={url} />
-      <h3 class="name">Samantha</h3>
+      <h3 class="name">{name}</h3>
     </div>
   )
 }
